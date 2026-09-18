@@ -23,6 +23,17 @@
       "autoconnect": true,
       "modules": [
         {
+          "id": "net.neoforged:neoforge:21.1.250:universal",
+          "name": "NeoForge",
+          "type": "ForgeModLoader",
+          "classpath": true,
+          "artifact": {
+            "size": 3551255,
+            "MD5": "",
+            "url": "https://github.com/m1tsako/1234/releases/download/v1.0.0/neoforge-21.1.250-universal.jar"
+          }
+        },
+        {
           "id": "com.modpack:mods:1.0.0",
           "name": "Modpack ZIP",
           "type": "ForgeMod",
