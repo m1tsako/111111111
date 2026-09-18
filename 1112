@@ -25,7 +25,7 @@
         {
           "id": "net.neoforged:neoforge:21.1.250:universal",
           "name": "NeoForge",
-          "type": "ForgeModLoader",
+          "type": "Library",
           "classpath": true,
           "artifact": {
             "size": 0,
