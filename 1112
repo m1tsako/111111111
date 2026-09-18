@@ -25,13 +25,12 @@
         {
           "id": "net.neoforged:neoforge:21.1.250:universal",
           "name": "NeoForge",
-          "type": "Library",
+          "type": "ForgeModLoader",
           "classpath": true,
           "artifact": {
             "size": 0,
             "MD5": "",
-            "url": "",
-            "path": "runtime/neoforge-21.1.250-universal.jar"
+            "url": "https://github.com/m1tsako/1234/releases/download/v1.0.0/neoforge-21.1.250-universal.jar"
           }
         },
         {
