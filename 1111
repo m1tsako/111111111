@@ -23,11 +23,17 @@
       "autoconnect": true,
       "modules": [
         {
+          "id": "net.minecraftforge:forge:1.21.1-21.1.250",
+          "name": "NeoForge",
+          "type": "Forge",
+          "classpath": true
+        },
+        {
           "id": "com.modpack:mods:1.0.0",
           "name": "Modpack ZIP",
           "type": "ForgeMod",
           "artifact": {
-            "size": 475029504,
+            "size": 469979172,
             "MD5": "",
             "url": "https://github.com/m1tsako/1234/releases/download/v1.0.0/mods.zip"
           }
@@ -37,7 +43,7 @@
           "name": "Config ZIP",
           "type": "ForgeMod",
           "artifact": {
-            "size": 0,
+            "size": 4966963,
             "MD5": "",
             "url": "https://github.com/m1tsako/1234/releases/download/v1.0.0/config.zip"
           }
