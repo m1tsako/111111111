@@ -9,7 +9,7 @@
     {
       "id": "all-of-create",
       "name": "All of Create",
-      "description": "Create",
+      "description": "Сервер с 240 модами на 1.21.1",
       "icon": "https://helios-files.geekcorner.eu.org/icon.png",
       "version": "1.21.1",
       "address": "127.0.0.1:25565",
@@ -22,17 +22,6 @@
       "mainServer": true,
       "autoconnect": true,
       "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.21.1-21.1.250",
-          "name": "NeoForge",
-          "type": "Forge",
-          "classpath": true,
-          "artifact": {
-            "size": 0,
-            "MD5": "",
-            "url": ""
-          }
-        },
         {
           "id": "com.modpack:mods:1.0.0",
           "name": "Modpack ZIP",
