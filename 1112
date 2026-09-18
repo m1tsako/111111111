@@ -1,0 +1,60 @@
+{
+  "version": "1.0.0",
+  "discord": {
+    "clientId": "123456789",
+    "smallImageText": "All of Create",
+    "smallImageKey": "icon"
+  },
+  "servers": [
+    {
+      "id": "all-of-create",
+      "name": "All of Create",
+      "description": "Сервер с 240 модами на 1.21.1",
+      "icon": "https://helios-files.geekcorner.eu.org/icon.png",
+      "version": "1.21.1",
+      "address": "127.0.0.1:25565",
+      "minecraftVersion": "1.21.1",
+      "discord": {
+        "shortId": "AoC",
+        "largeImageText": "All of Create",
+        "largeImageKey": "icon"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.neoforged:neoforge:21.1.250:universal",
+          "name": "NeoForge",
+          "type": "ForgeModLoader",
+          "classpath": true,
+          "artifact": {
+            "size": 0,
+            "MD5": "",
+            "url": "",
+            "path": "runtime/neoforge-21.1.250-universal.jar"
+          }
+        },
+        {
+          "id": "com.modpack:mods:1.0.0",
+          "name": "Modpack ZIP",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 469979172,
+            "MD5": "",
+            "url": "https://github.com/m1tsako/1234/releases/download/v1.0.0/mods.zip"
+          }
+        },
+        {
+          "id": "com.modpack:config:1.0.0",
+          "name": "Config ZIP",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4966963,
+            "MD5": "",
+            "url": "https://github.com/m1tsako/1234/releases/download/v1.0.0/config.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
