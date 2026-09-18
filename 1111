@@ -1,0 +1,71 @@
+{
+  "version": "1.0.0",
+  "discord": {
+    "clientId": "123456789",
+    "smallImageText": "All of Create",
+    "smallImageKey": "icon"
+  },
+  "servers": [
+    {
+      "id": "all-of-create",
+      "name": "All of Create",
+      "description": "Сервер с 240 модами на 1.21.1",
+      "icon": "https://helios-files.geekcorner.eu.org/icon.png",
+      "version": "1.21.1",
+      "address": "127.0.0.1:25565",
+      "minecraftVersion": "1.21.1",
+      "discord": {
+        "shortId": "AoC",
+        "largeImageText": "All of Create",
+        "largeImageKey": "icon"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.21.1-21.1.248:universal",
+          "name": "NeoForge",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 0,
+            "MD5": "",
+            "url": "https://maven.neoforged.net/releases/net/neoforged/forge/1.21.1-21.1.248/forge-1.21.1-21.1.248-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.1-21.1.248",
+              "name": "NeoForge version.json",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 0,
+                "MD5": "",
+                "url": "https://maven.neoforged.net/releases/net/neoforged/forge/1.21.1-21.1.248/forge-1.21.1-21.1.248.json"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.modpack:mods:1.0.0",
+          "name": "Modpack ZIP",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 475029504,
+            "MD5": "",
+            "url": "https://github.com/m1tsako/1234/releases/download/v1.0.0/mods.zip"
+          }
+        },
+        {
+          "id": "com.modpack:config:1.0.0",
+          "name": "Config ZIP",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 0,
+            "MD5": "",
+            "url": "https://github.com/m1tsako/1234/releases/download/v1.0.0/config.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
