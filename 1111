@@ -25,8 +25,9 @@
         {
           "id": "net.minecraftforge:forge:1.21.1-21.1.250",
           "name": "NeoForge",
-          "type": "Forge",
-          "classpath": true
+          "type": "MinecraftForge",
+          "classpath": true,
+          "version": "21.1.250"
         },
         {
           "id": "com.modpack:mods:1.0.0",
